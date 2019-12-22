@@ -19,7 +19,8 @@ class Song
   end 
   
  def genres
-  @@genres.uniq
+ unique =  @@genres.uniq
+ unique
 end
 
 end
