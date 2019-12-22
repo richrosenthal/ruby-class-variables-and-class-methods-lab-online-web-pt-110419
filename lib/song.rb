@@ -22,8 +22,9 @@ class Song
       if !@@genres.include?(genres)
         unique_genres << genres
       end
-    unique_genres
+    
   end
+  unique_genres
 end
 end
     
