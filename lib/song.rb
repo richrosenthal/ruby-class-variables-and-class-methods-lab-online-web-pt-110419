@@ -20,7 +20,8 @@ class Song
   
   def genres 
     unique_genres = []
-    @@genres.each do |genres| 
+    genres_array = @@genres
+    genres_array.each do |genres| 
       if !@@genres.include?(genres)
         unique_genres << genres
       end
