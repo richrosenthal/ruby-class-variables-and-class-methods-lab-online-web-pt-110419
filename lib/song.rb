@@ -38,7 +38,7 @@ def self.artists
   @@artists.uniq
 end 
 
-def genre_count 
+def self.genre_count 
   
   @@genres.inject(Hash.new(0)) do |hash, e|
     hash[e] += 1
