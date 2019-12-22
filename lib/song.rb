@@ -46,5 +46,12 @@ def self.genre_count
   end
 end
 
+def self.artists_count
+  @@artists.inject(Hash.new(0)) do |hash, e|
+    hash[e] += 1
+    hash
+  end 
+end
+
 end
     
