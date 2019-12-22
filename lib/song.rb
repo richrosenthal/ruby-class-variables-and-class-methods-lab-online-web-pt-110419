@@ -18,7 +18,7 @@ class Song
     @@count
   end 
   
-def genres
+def self.genres
    unique_genres = []
    genres_array = @@genres 
    genres_array.each do |genre|
